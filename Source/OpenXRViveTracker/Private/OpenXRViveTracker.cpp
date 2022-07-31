@@ -143,7 +143,7 @@ private:
 	TSharedPtr<FOpenXRViveTrackerPlugin> ViveTrackerInstance;
 };
 
-IMPLEMENT_MODULE(FOpenXRViveTrackerModule, FOpenXRViveTrackerPlugin);
+IMPLEMENT_MODULE(FOpenXRViveTrackerModule, OpenXRViveTracker);
 
 
 ///////////////////////////////////////////////////////////////////////////////
